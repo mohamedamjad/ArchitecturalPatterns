@@ -107,7 +107,7 @@ Emmanuel \textsc{Bardiere} % Supervisor's Name
 
 \begin{abstract}
 Architectural patterns provide reusable solutions for common architectural problems. Patterns usually don't contains code that you can cut and past; instead, they contain architectural and design information that you build into your solution.
-Nowadays we define architectural patterns sub-domains adapted, more or less, to each type of situations. In this documentary research project we  presente what architectural patterns are, How are they integrated into an information system project?  We also provide 
+Nowadays we define architectural patterns sub-domains adapted, more or less, to each type of situations. In this documentary research project we presente what architectural patterns are, How are they integrated into an information system project?  We also provide 
 
 \end{abstract}
 
@@ -133,11 +133,43 @@ Nowadays we define architectural patterns sub-domains adapted, more or less, to 
 Architectural patterns are commonly recognised as efficient solutions to a reccuring problem in the software architecture field. This type of patterns is generally implemented to solve some problems related to hardware performance, business risks, big data analysis, servers high availability ...and others.
 nevertheless, "Architectural patterns" is a confusing expression, the reader must distinguish between this expression and "software architecture styles". For example, SOA is a software architecture style, but ESB -which is an architectural pattern- is a manner to implemente a SOA.
 In the schema diagram bellow we presente some software architecture style and the related architectural patterns.
+The reader must also distinguish between two others confusing concepts: design patterns and architectural patterns:
+ Design patterns are usually associated with code level commonalities. It provides various schemes for refining and building smaller subsystems. It is usually influenced by programming language. Some patterns pale into insignificance due to language paradigms. Design patterns are medium-scale tactics that flesh out some of the structure and behavior of entities and their relationships.
 
+While architectural patterns are seen as commonality at higher level than design patterns. Architectural patterns are high-level strategies that concerns large-scale components, the global properties and mechanisms of a system.
 
+\section{Architectural Patterns}
+\label{sec:ArchitecturalPatterns}
 
-\section{Some \LaTeX{} Examples}
-\label{sec:examples}
+In this section we list some basic architectural styles and the patterns that help you design them. There may be more than one pattern for each style. Both MVC and PAC, for example, are in the interactive system style.
+
+\subsection{From Mud to Structure}
+From Mud to Structure is the root and entry point to our pattern language. Its featured patterns help to transform the mud of requirements and constraints we usually start with into a coarse-grained software structure with clearly separated, tangible parts that make up the system being developed, and address several key concerns of sustainable software architectures: operational aspects such as performance and availability, as well as developmental qualities like extensibility and maintainability.
+
+\subsubsection{Layered Architecture}
+an example of a "From Mud to Structure" pattern is the layered architecture. This architectural pattern have been since the beginning of digital computers — or at least since the early 1960s. Modern hardware technology and languages accentuate the usefulness of layered architectures.
+The International Standards Organization (ISO) Open Systems Interconnection (OSI) seven-layer model (see the Figure bellow) facilitates communication between computers. The model consists of two separate but parallel stacks of layers; each layer provides a higher level of functionality than the layer below it.
+Within the two stacks, the layer N in one stack is a peer of the layer N in the other stack. Logically, communication is between the peer layers in the two stacks; actually, only the bottommost layer directly communicates between the two stacks.
+
+% Include the OSI figure
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth]{../images/osi_model.png}
+\caption{\label{fig:frog} the OSI architectural pattern}
+\end{figure}
+
+Layers can be different sizes, hosting different numbers of protocols. Over time, in fact, the communications-stack diagram has evolved into many variations. Some layers have many alternatives — such as SIP, FTP, Telnet, and HTTP in layer 7 (the Application layer) — and other layers have few alternatives.
+Something that’s true of layered architectures in general is true of the OSI model as well: Changes to a layer affect only that one layer. In other words, the communication protocol chosen at a lower layer doesn’t affect the higher- level functionality provided at its higher level. You’re free to pick and choose the protocols to use in each layer — just keep in mind that for peers to talk to each other, the peer layers in the two stacks must use the same protocol.
+
+\subsection{Distributed systems}
+A distributed system consists of a collection of autonomous nodes (computers or servers), connected through a network and distribution middleware, which enables computers to coordinate their activities and to share the resources of the system, so that users perceive the system as a single, integrated computing facility.
+The most known architectural patterns that implemente the distributed systems architecture:
+\begin{itemize}
+\item 2-tiers (client-server), 3-tiers, n-tiers,
+\item Peer-to-Peer,
+\item Broker,
+\item Serivce Oriented,
+\end{itemize}
 
 \subsection{Sections}
 
