@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2014.11.21)  30 NOV 2014 19:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2014.11.21)  4 DEC 2014 16:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -466,6 +466,12 @@ LaTeX Info: Redefining \addtolength on input line 76.
 
 LaTeX Warning: Label `fig:frog' multiply defined.
 
+
+LaTeX Warning: Label `fig:frog' multiply defined.
+
+
+LaTeX Warning: Label `fig:frog' multiply defined.
+
 )
 \openout1 = `ArchitecturalPatterns.aux'.
 
@@ -579,23 +585,54 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 168.
  [3 <../images/osi_model.png>]
+Overfull \hbox (0.25706pt too wide) in paragraph at lines 182--183
+[]\OT1/cmr/m/n/12 Perform mes-sage ag-gre-ga-tion, de-com-pos-ing mes-sages int
+o mul-ti-ple mes-
+ []
+
+
+Overfull \hbox (26.75957pt too wide) in paragraph at lines 186--187
+[]\OT1/cmr/m/n/12 Provide con-tent and topic-based mes-sage rout-ing us-ing the
+ pub-lish{subscribe
+ []
+
+<../images/broker.png, id=29, 624.3325pt x 184.69pt>
+File: ../images/broker.png Graphic file (type png)
+
+<use ../images/broker.png>
+Package pdftex.def Info: ../images/broker.png used on input line 192.
+(pdftex.def)             Requested size: 390.0pt x 115.37177pt.
+ [4] [5 <../images/broker.png>]
+<../images/mvc.png, id=38, 506.89375pt x 401.5pt>
+File: ../images/mvc.png Graphic file (type png)
+ <use ../images/mvc.png>
+Package pdftex.def Info: ../images/mvc.png used on input line 230.
+(pdftex.def)             Requested size: 234.00238pt x 185.34775pt.
+
+[6] [7 <../images/mvc.png>]
+
+LaTeX Warning: Reference `tab:widgets' on page 8 undefined on input line 259.
+
 File: ../images/logo.png Graphic file (type png)
- <use ../images/logo.png>
-Package pdftex.def Info: ../images/logo.png used on input line 191.
+<use ../images/logo.png>
+Package pdftex.def Info: ../images/logo.png used on input line 264.
 (pdftex.def)             Requested size: 195.0pt x 207.63155pt.
- [4] [5] (./ArchitecturalPatterns.aux)
+ [8] [9] (./ArchitecturalPatterns.aux)
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13445 strings out of 494950
- 262474 string characters out of 6179039
- 310314 words of memory out of 5000000
- 16395 multiletter control sequences out of 15000+600000
- 11333 words of font info for 40 fonts, out of 8000000 for 9000
+ 13457 strings out of 494950
+ 262705 string characters out of 6179039
+ 310306 words of memory out of 5000000
+ 16405 multiletter control sequences out of 15000+600000
+ 11787 words of font info for 42 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 62i,9n,80p,530b,695s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,9n,80p,691b,695s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
@@ -604,13 +641,14 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmti12.pfb>
-Output written on ArchitecturalPatterns.pdf (6 pages, 175647 bytes).
+c/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
+fb>
+Output written on ArchitecturalPatterns.pdf (10 pages, 210711 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 97 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

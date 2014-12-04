@@ -165,11 +165,89 @@ Something that’s true of layered architectures in general is true of the OSI m
 A distributed system consists of a collection of autonomous nodes (computers or servers), connected through a network and distribution middleware, which enables computers to coordinate their activities and to share the resources of the system, so that users perceive the system as a single, integrated computing facility.
 The most known architectural patterns that implemente the distributed systems architecture:
 \begin{itemize}
-\item 2-tiers (client-server), 3-tiers, n-tiers,
-\item Peer-to-Peer,
-\item Broker,
-\item Serivce Oriented,
+\item 2-tiers (client-server), 3-tiers, n-tiers;
+\item Peer-to-Peer;
+\item Broker;
+\item Serivce Oriented;
 \end{itemize}
+
+\subsubsection{Broker}
+A message broker is an architectural pattern for message validation, message transformation and message routing. It mediates communication amongst applications, minimizing the mutual awareness that applications should have of each other in order to be able to exchange messages, effectively implementing decoupling.
+
+The purpose of a broker is to take incoming messages from applications and perform some action on them. The following are examples of actions that might be taken in the broker:
+
+\begin{itemize}
+\item Route messages to one or more of many destinations;
+\item Transform messages to an alternative representation;
+\item Perform message aggregation, decomposing messages into multiple messages and sending them to their destination, then recomposing the responses into one message to return to the user;
+\item Interact with an external repository to augment a message or store it;
+\item Invoke Web services to retrieve data;
+\item Respond to events or errors;
+\item Provide content and topic-based message routing using the publish–subscribe pattern.
+\end{itemize}
+
+% Include the OSI figure
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth]{../images/broker.png}
+\caption{\label{fig:frog} A typical example of the Broker pattern}
+\end{figure}
+
+\paragraph{Apache ActiveMQ as an implementation of the Broker pattern}
+
+Apache ActiveMQ is an open source message broker written in Java together with a full Java Message Service (JMS) client. It provides "Enterprise Features" which in this case means fostering the communication from more than one client or server. Supported clients include Java via JMS 1.1 as well as several other "cross language" clients. The communication is managed with features such as computer clustering and ability to use any database as a JMS persistence provider besides virtual memory, cache, and journal persistency.
+
+\subsubsection{Service Oriented Architecture}
+
+Service-oriented architecture (SOA) is a design pattern based on distinct pieces of software providing application functionality as services to other applications via a protocol. This is known as service-orientation. It is independent of any vendor, product or technology.
+
+A service is a self-contained unit of functionality, such as retrieving an online bank statement. Services can be combined by other software applications to provide the complete functionality of a large software application. SOA makes it easy for computers connected over a network to cooperate. Every computer can run an arbitrary number of services, and each service is built in a way that ensures that the service can exchange information with any other service in the network without human interaction and without the need to make changes to the underlying program itself.
+
+There are no industry standards relating to the exact composition of a service-oriented architecture, although many industry sources have published their own principles.
+
+\subsection{Interactive Systems}
+\subsubsection{Model-View-Controller}
+
+Model–view–controller (MVC) is a software architectural pattern for implementing user interfaces. It divides a given software application into three interconnected parts, so as to separate internal representations of information from the ways that information is presented to or accepted from the user.
+
+\paragraph{Components:}
+
+The central component of MVC, the model, captures the behavior of the application in terms of its problem domain, independent of the user interface. The model directly manages the data, logic and rules of the application. A view can be any output representation of information, such as a chart or a diagram; multiple views of the same information are possible, such as a bar chart for management and a tabular view for accountants. The third part, the controller, accepts input and converts it to commands for the model or view.
+
+\paragraph{Interactions:}
+
+In addition to dividing the application into three kinds of components, the model–view–controller design defines the interactions between them.
+
+\begin{itemize}
+\item A controller can send commands to the model to update the model's state (e.g., editing a document). It can also send commands to its associated view to change the view's presentation of the model (e.g., by scrolling through a document).
+\item A model notifies its associated views and controllers when there has been a change in its state. This notification allows the views to produce updated output, and the controllers to change the available set of commands. In some cases an MVC implementation might instead be "passive," so that other components must poll the model for updates rather than being notified.
+\item A view requests information from the model that it uses to generate an output representation to the user.
+\end{itemize}
+
+% Include the 
+\begin{figure}
+\centering
+\includegraphics[width=0.6\textwidth]{../images/mvc.png}
+\caption{\label{fig:frog} MVC architecture}
+\end{figure}
+
+\section{MapReduce}
+
+MapReduce is a programming model designed for processing large volumes of data in parallel by dividing the work into a set of independent tasks. MapReduce programs are written in a particular style influenced by functional programming constructs, specifically idioms for processing lists of data. In this section we explain the nature of this programming model and how it can be used to write programs which run in the Hadoop environment\footnote{The Apache Hadoop software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models. it implementes MapReduce}.
+
+\subsection{MapReduce Basics:}
+
+\subsubsection{Functional Programming:}
+all data elements in MapReduce are immutable\footnote{an immutable object is an object whose state cannot be modified after it is created}, meaning that they cannot be updated. If in a mapping task you change an input (key, value) pair, it does not get reflected back in the input files; communication occurs only by generating new output (key, value) pairs which are then forwarded by the Hadoop system into the next phase of execution.
+
+\subsubsection{List processing}
+
+Conceptually, MapReduce programs transform lists of input data elements into lists of output data elements. A MapReduce program will do this twice, using two different list processing idioms: map, and reduce. These terms are taken from several list processing languages such as LISP, Scheme, or ML.
+
+\subsubsection{Mapping lists}
+
+The first phase of a MapReduce program is called mapping. A list of data elements are provided, one at a time, to a function called the Mapper, which transforms each element individually to an output data element.
+
 
 \subsection{Sections}
 
@@ -192,15 +270,15 @@ Use the table and tabular commands for basic tables --- see Table~\ref{tab:widge
 \caption{\label{fig:frog}This is a figure caption.}
 \end{figure}
 
-\begin{table}
-\centering
-\begin{tabular}{l|r}
-Item & Quantity \\\hline
-Widgets & 42 \\
-Gadgets & 13
-\end{tabular}
-\caption{\label{tab:widgets}An example table.}
-\end{table}
+%\begin{table}
+%\centering
+%\begin{tabular}{l|r}
+%Item & Quantity \\\hline
+%Widgets & 42 \\
+%Gadgets & 13
+%\end{tabular}
+%\caption{\label{tab:widgets}An example table.}
+%\end{table}
 
 \subsection{Mathematics}
 

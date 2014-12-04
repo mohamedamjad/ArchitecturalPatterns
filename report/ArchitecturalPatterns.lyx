@@ -1,5 +1,5 @@
-#LyX file created by tex2lyx 2.0.8.1
-\lyxformat 413
+#LyX file created by tex2lyx 2.1
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass article
@@ -37,13 +37,14 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-
 \usepackage[english]{babel}
 \usepackage[colorinlistoftodos]{todonotes}
 
 
+
 \end_preamble
 \use_default_options false
+\maintain_unincluded_children false
 \language english
 \language_package default
 \inputencoding utf8x
@@ -51,6 +52,7 @@
 \font_roman default
 \font_sans default
 \font_typewriter default
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
@@ -60,21 +62,36 @@
 \graphics default
 \default_output_format default
 \output_sync 0
+\bibtex_command default
+\index_command default
 \paperfontsize 12
 \spacing single
-\use_hyperref 0
+\use_hyperref false
 \papersize default
 \use_geometry false
-\use_amsmath 2
-\use_esint 1
-\use_mhchem 0
-\use_mathdots 0
+\use_package amsmath 2
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
 \cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
+\justification true
 \use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -94,12 +111,10 @@
 
 \begin_layout Standard
 
-
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 
 \backslash
 begin{titlepage}
@@ -112,7 +127,6 @@ begin{titlepage}
 
 \begin_layout Standard
 
-
 \begin_inset FormulaMacro
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
 \end_inset
@@ -121,14 +135,8 @@ begin{titlepage}
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 % Defines a new command for the horizontal lines, change thickness here
-\end_layout
-
-\begin_layout Standard
-
-
 \end_layout
 
 \end_inset
@@ -138,12 +146,10 @@ status collapsed
 
 \begin_layout Standard
 
-
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 
 \backslash
 center
@@ -155,14 +161,8 @@ center
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 % Center everything on the page
-\end_layout
-
-\begin_layout Standard
-
-
 \end_layout
 
 \end_inset
@@ -171,14 +171,8 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 %----------------------------------------------------------------------------------------
-\end_layout
-
-\begin_layout Standard
-
-
 \end_layout
 
 \end_inset
@@ -187,30 +181,18 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 %	HEADING SECTIONS
 \end_layout
 
-\begin_layout Standard
-
-
-\end_layout
-
 \end_inset
 
 
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 %----------------------------------------------------------------------------------------
-\end_layout
-
-\begin_layout Standard
-
-
 \end_layout
 
 \end_inset
@@ -219,7 +201,6 @@ status collapsed
 \end_layout
 
 \begin_layout Standard
-
 
 \shape smallcaps
 
@@ -230,267 +211,7 @@ National School of Geographic Sciences
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
-
-\backslash
-
-\backslash
-[1.5cm]
-\end_layout
-
-\end_inset
-
- 
-\begin_inset ERT
-status collapsed
-
-\begin_layout Standard
-
-% Name of your university/college
-\end_layout
-
-\begin_layout Standard
-
-
-\end_layout
-
-\end_inset
-
-
-\shape smallcaps
-
-\size larger
-Geomatics and Information Systems Technology
-\shape default
-
-\begin_inset ERT
-status collapsed
-
-\begin_layout Standard
-
-
-\backslash
-
-\backslash
-[0.5cm]
-\end_layout
-
-\end_inset
-
- 
-\begin_inset ERT
-status collapsed
-
-\begin_layout Standard
-
-% Major heading such as course name
-\end_layout
-
-\begin_layout Standard
-
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status collapsed
-
-\begin_layout Standard
-
-%
-\backslash
-textsc{
-\backslash
-large Minor Heading}
-\backslash
-
-\backslash
-[0.5cm] % Minor heading such as course title
-\end_layout
-
-\begin_layout Standard
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-
-\begin_inset ERT
-status collapsed
-
-\begin_layout Standard
-
-%----------------------------------------------------------------------------------------
-\end_layout
-
-\begin_layout Standard
-
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status collapsed
-
-\begin_layout Standard
-
-%	TITLE SECTION
-\end_layout
-
-\begin_layout Standard
-
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status collapsed
-
-\begin_layout Standard
-
-%----------------------------------------------------------------------------------------
-\end_layout
-
-\begin_layout Standard
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-
-\begin_inset ERT
-status collapsed
-
-\begin_layout Standard
-
-
-\backslash
-HRule
-\end_layout
-
-\end_inset
-
- 
-\begin_inset ERT
-status collapsed
-
-\begin_layout Standard
-
-
-\backslash
-
-\backslash
-[0.4cm]
-\end_layout
-
-\end_inset
-
- 
-\begin_inset ERT
-status collapsed
-
-\begin_layout Standard
-
-{
-\end_layout
-
-\end_inset
-
- 
-\size huge
-
-\series bold
-Architectural Patterns
-\begin_inset ERT
-status collapsed
-
-\begin_layout Standard
-
-}
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status collapsed
-
-\begin_layout Standard
-
-
-\backslash
-
-\backslash
-[0.4cm]
-\end_layout
-
-\end_inset
-
- 
-\begin_inset ERT
-status collapsed
-
-\begin_layout Standard
-
-% Title of your document
-\end_layout
-
-\begin_layout Standard
-
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status collapsed
-
-\begin_layout Standard
-
-{
-\end_layout
-
-\end_inset
-
- 
-\series bold
-ex MapReduce
-\begin_inset ERT
-status collapsed
-
-\begin_layout Standard
-
-}
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status collapsed
-
-\begin_layout Standard
-
+\begin_layout Plain Layout
 
 \backslash
 
@@ -504,14 +225,22 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
+% Name of your university/college
+\end_layout
 
-% Title of your document
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 
+\begin_inset ERT
+status collapsed
 
+\begin_layout Plain Layout
+%----------------------------------------------------------------------------------------
 \end_layout
 
 \end_inset
@@ -520,8 +249,162 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
+\begin_layout Plain Layout
+%	LOGO SECTION
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%----------------------------------------------------------------------------------------
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 
+\begin_inset Graphics 
+	filename ../images/logo.png
+	scale 40
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+
+\backslash
+[0.2cm]
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% Include a department/university logo - this will require the graphicx package
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%----------------------------------------------------------------------------------------
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\shape smallcaps
+
+\size larger
+Geomatics and Information Systems Technology
+\shape default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+
+\backslash
+[0.5cm]
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% Major heading such as course name
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+textsc{
+\backslash
+large Minor Heading}
+\backslash
+
+\backslash
+[0.5cm] % Minor heading such as course title
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%----------------------------------------------------------------------------------------
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%	TITLE SECTION
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%----------------------------------------------------------------------------------------
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
 
 \backslash
 HRule
@@ -533,8 +416,127 @@ HRule
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 
+\backslash
+
+\backslash
+[0.4cm]
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+ 
+\size huge
+
+\series bold
+Architectural Patterns
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+
+\backslash
+[0.4cm]
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% Title of your document
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+ 
+\series bold
+ex MapReduce
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+
+\backslash
+[0.2cm]
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% Title of your document
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+HRule
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
 
 \backslash
 
@@ -549,18 +551,11 @@ status collapsed
 
 \begin_layout Standard
 
-
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 %----------------------------------------------------------------------------------------
-\end_layout
-
-\begin_layout Standard
-
-
 \end_layout
 
 \end_inset
@@ -569,30 +564,18 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 %	AUTHOR SECTION
 \end_layout
 
-\begin_layout Standard
-
-
-\end_layout
-
 \end_inset
 
 
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 %----------------------------------------------------------------------------------------
-\end_layout
-
-\begin_layout Standard
-
-
 \end_layout
 
 \end_inset
@@ -601,7 +584,6 @@ status collapsed
 \end_layout
 
 \begin_layout Standard
-
 
 \begin_inset Box Frameless
 position "c"
@@ -618,13 +600,11 @@ status open
 
 
 \begin_layout Plain Layout
-
  
 \end_layout
 
 \begin_layout Plain Layout
 \align left
-
 
 \size large
 
@@ -643,14 +623,8 @@ LASRI
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 % Your name
-\end_layout
-
-\begin_layout Standard
-
-
 \end_layout
 
 \end_inset
@@ -681,13 +655,11 @@ status open
 
 
 \begin_layout Plain Layout
-
  
 \end_layout
 
 \begin_layout Plain Layout
 \align right
-
 
 \size large
 
@@ -706,14 +678,8 @@ Bardiere
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 % Supervisor's Name
-\end_layout
-
-\begin_layout Standard
-
-
 \end_layout
 
 \end_inset
@@ -727,8 +693,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 
 \backslash
 
@@ -743,18 +708,11 @@ status collapsed
 
 \begin_layout Standard
 
-
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 % If you don't want a supervisor, uncomment the two lines below and remove the section above
-\end_layout
-
-\begin_layout Standard
-
-
 \end_layout
 
 \end_inset
@@ -763,8 +721,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 %
 \backslash
 Large 
@@ -776,19 +733,13 @@ emph{Author:}
 
 \end_layout
 
-\begin_layout Standard
-
-
-\end_layout
-
 \end_inset
 
 
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 %John 
 \backslash
 textsc{Smith}
@@ -798,11 +749,6 @@ textsc{Smith}
 [3cm] % Your name
 \end_layout
 
-\begin_layout Standard
-
-
-\end_layout
-
 \end_inset
 
 
@@ -810,50 +756,31 @@ textsc{Smith}
 
 \begin_layout Standard
 
-
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 %----------------------------------------------------------------------------------------
 \end_layout
 
-\begin_layout Standard
-
-
-\end_layout
-
 \end_inset
 
 
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 %	DATE SECTION
 \end_layout
 
-\begin_layout Standard
-
-
-\end_layout
-
 \end_inset
 
 
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 %----------------------------------------------------------------------------------------
-\end_layout
-
-\begin_layout Standard
-
-
 \end_layout
 
 \end_inset
@@ -862,15 +789,13 @@ status collapsed
 \end_layout
 
 \begin_layout Standard
-
 
 \size large
 
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 
 \backslash
 today
@@ -884,106 +809,7 @@ today
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
-
-\backslash
-
-\backslash
-[2cm]
-\end_layout
-
-\end_inset
-
- 
-\begin_inset ERT
-status collapsed
-
-\begin_layout Standard
-
-% Date, change the 
-\backslash
-today to a set date if you want to be precise
-\end_layout
-
-\begin_layout Standard
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-
-\begin_inset ERT
-status collapsed
-
-\begin_layout Standard
-
-%----------------------------------------------------------------------------------------
-\end_layout
-
-\begin_layout Standard
-
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status collapsed
-
-\begin_layout Standard
-
-%	LOGO SECTION
-\end_layout
-
-\begin_layout Standard
-
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status collapsed
-
-\begin_layout Standard
-
-%----------------------------------------------------------------------------------------
-\end_layout
-
-\begin_layout Standard
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-
-\begin_inset Graphics 
-	filename ../images/logo.png
-	scale 60
-
-\end_inset
-
-
-\begin_inset ERT
-status collapsed
-
-\begin_layout Standard
-
+\begin_layout Plain Layout
 
 \backslash
 
@@ -997,30 +823,10 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
-% Include a department/university logo - this will require the graphicx package
-\end_layout
-
-\begin_layout Standard
-
-
-\end_layout
-
-\end_inset
-
- 
-\begin_inset ERT
-status collapsed
-
-\begin_layout Standard
-
-%----------------------------------------------------------------------------------------
-\end_layout
-
-\begin_layout Standard
-
-
+\begin_layout Plain Layout
+% Date, change the 
+\backslash
+today to a set date if you want to be precise
 \end_layout
 
 \end_inset
@@ -1029,7 +835,6 @@ status collapsed
 \end_layout
 
 \begin_layout Standard
-
 
 \begin_inset VSpace vfill
 \end_inset
@@ -1038,8 +843,7 @@ status collapsed
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 
 \backslash
 end{titlepage}
@@ -1051,12 +855,10 @@ end{titlepage}
 \end_layout
 
 \begin_layout Abstract
-
 Architectural patterns provide reusable solutions for common architectural problems. Patterns usually don't contains code that you can cut and past; instead, they contain architectural and design information that you build into your solution. Nowadays we define architectural patterns sub-domains adapted, more or less, to each type of situations. In this documentary research project we presente what architectural patterns are, How are they integrated into an information system project? We also provide
 \end_layout
 
 \begin_layout Standard
-
 
 \begin_inset FormulaMacro
 \renewcommand{\abstractname}{Acknowledgements}
@@ -1066,65 +868,413 @@ Architectural patterns provide reusable solutions for common architectural probl
 \end_layout
 
 \begin_layout Abstract
+Thanks God, thanks Mum! 
+\end_layout
 
-Thanks Mum! 
+\begin_layout Standard
+
+\begin_inset FormulaMacro
+\renewcommand{\abstractname}{License}
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Abstract
+Copyright (C) 2014 Mohamed Amjad LASRI. Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included in the section entitled "GNU Free Documentation License". 
 \end_layout
 
 \begin_layout Section
-
 Introduction
 \end_layout
 
 \begin_layout Standard
-
-Your introduction goes here! Some examples of commonly used commands and features are listed below, to help you get started.
+Architectural patterns are commonly recognised as efficient solutions to a reccuring problem in the software architecture field. This type of patterns is generally implemented to solve some problems related to hardware performance, business risks, big data analysis, servers high availability ...and others. nevertheless, "Architectural patterns" is a confusing expression, the reader must distinguish between this expression and "software architecture styles". For example, SOA is a software architecture style, but ESB -which is an architectural pattern- is a manner to implemente a SOA. In the schema diagram bellow we presente some software architecture style and the related architectural patterns. The reader must also distinguish between two others confusing concepts: design patterns and architectural patterns: Design patterns are usually associated with code level commonalities. It provides various schemes for refining and building smaller subsystems. It is usually influenced by programming language. Some patterns pale into insignificance due to language paradigms. Design patterns are medium-scale tactics that flesh out some of the structure and behavior of entities and their relationships.
 \end_layout
 
 \begin_layout Standard
-
-If you have a question, please use the support box in the bottom right of the screen to get in touch.
+While architectural patterns are seen as commonality at higher level than design patterns. Architectural patterns are high-level strategies that concerns large-scale components, the global properties and mechanisms of a system.
 \end_layout
 
 \begin_layout Section
-
-Some LaTeX Examples
+Architectural Patterns
 \end_layout
 
 \begin_layout Standard
 
-
 \begin_inset CommandInset label
 LatexCommand label
-name "sec:examples"
+name "sec:ArchitecturalPatterns"
 
 \end_inset
 
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Standard
+In this section we list some basic architectural styles and the patterns that help you design them. There may be more than one pattern for each style. Both MVC and PAC, for example, are in the interactive system style.
+\end_layout
 
+\begin_layout Subsection
+From Mud to Structure
+\end_layout
+
+\begin_layout Standard
+From Mud to Structure is the root and entry point to our pattern language. Its featured patterns help to transform the mud of requirements and constraints we usually start with into a coarse-grained software structure with clearly separated, tangible parts that make up the system being developed, and address several key concerns of sustainable software architectures: operational aspects such as performance and availability, as well as developmental qualities like extensibility and maintainability.
+\end_layout
+
+\begin_layout Subsubsection
+Layered Architecture
+\end_layout
+
+\begin_layout Standard
+an example of a "From Mud to Structure" pattern is the layered architecture. This architectural pattern have been since the beginning of digital computers — or at least since the early 1960s. Modern hardware technology and languages accentuate the usefulness of layered architectures. The International Standards Organization (ISO) Open Systems Interconnection (OSI) seven-layer model (see the Figure bellow) facilitates communication between computers. The model consists of two separate but parallel stacks of layers; each layer provides a higher level of functionality than the layer below it. Within the two stacks, the layer N in one stack is a peer of the layer N in the other stack. Logically, communication is between the peer layers in the two stacks; actually, only the bottommost layer directly communicates between the two stacks.
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% Include the OSI figure
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics 
+	filename ../images/osi_model.png
+	width 100text%
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Standard
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:frog"
+
+\end_inset
+
+ the OSI architectural pattern
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Layers can be different sizes, hosting different numbers of protocols. Over time, in fact, the communications-stack diagram has evolved into many variations. Some layers have many alternatives — such as SIP, FTP, Telnet, and HTTP in layer 7 (the Application layer) — and other layers have few alternatives. Something that’s true of layered architectures in general is true of the OSI model as well: Changes to a layer affect only that one layer. In other words, the communication protocol chosen at a lower layer doesn’t affect the higher- level functionality provided at its higher level. You’re free to pick and choose the protocols to use in each layer — just keep in mind that for peers to talk to each other, the peer layers in the two stacks must use the same protocol.
+\end_layout
+
+\begin_layout Subsection
+Distributed systems
+\end_layout
+
+\begin_layout Standard
+A distributed system consists of a collection of autonomous nodes (computers or servers), connected through a network and distribution middleware, which enables computers to coordinate their activities and to share the resources of the system, so that users perceive the system as a single, integrated computing facility. The most known architectural patterns that implemente the distributed systems architecture: 
+\end_layout
+
+\begin_layout Itemize
+2-tiers (client-server), 3-tiers, n-tiers; 
+\end_layout
+
+\begin_layout Itemize
+Peer-to-Peer; 
+\end_layout
+
+\begin_layout Itemize
+Broker; 
+\end_layout
+
+\begin_layout Itemize
+Serivce Oriented; 
+\end_layout
+
+\begin_layout Subsubsection
+Broker
+\end_layout
+
+\begin_layout Standard
+A message broker is an architectural pattern for message validation, message transformation and message routing. It mediates communication amongst applications, minimizing the mutual awareness that applications should have of each other in order to be able to exchange messages, effectively implementing decoupling.
+\end_layout
+
+\begin_layout Standard
+The purpose of a broker is to take incoming messages from applications and perform some action on them. The following are examples of actions that might be taken in the broker:
+\end_layout
+
+\begin_layout Itemize
+Route messages to one or more of many destinations; 
+\end_layout
+
+\begin_layout Itemize
+Transform messages to an alternative representation; 
+\end_layout
+
+\begin_layout Itemize
+Perform message aggregation, decomposing messages into multiple messages and sending them to their destination, then recomposing the responses into one message to return to the user; 
+\end_layout
+
+\begin_layout Itemize
+Interact with an external repository to augment a message or store it; 
+\end_layout
+
+\begin_layout Itemize
+Invoke Web services to retrieve data; 
+\end_layout
+
+\begin_layout Itemize
+Respond to events or errors; 
+\end_layout
+
+\begin_layout Itemize
+Provide content and topic-based message routing using the publish–subscribe pattern. 
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% Include the OSI figure
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics 
+	filename ../images/broker.png
+	width 100text%
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Standard
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:frog"
+
+\end_inset
+
+ A typical example of the Broker pattern
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Apache ActiveMQ as an implementation of the Broker pattern
+\end_layout
+
+\begin_layout Standard
+Apache ActiveMQ is an open source message broker written in Java together with a full Java Message Service (JMS) client. It provides "Enterprise Features" which in this case means fostering the communication from more than one client or server. Supported clients include Java via JMS 1.1 as well as several other "cross language" clients. The communication is managed with features such as computer clustering and ability to use any database as a JMS persistence provider besides virtual memory, cache, and journal persistency.
+\end_layout
+
+\begin_layout Subsubsection
+Service Oriented Architecture
+\end_layout
+
+\begin_layout Standard
+Service-oriented architecture (SOA) is a design pattern based on distinct pieces of software providing application functionality as services to other applications via a protocol. This is known as service-orientation. It is independent of any vendor, product or technology.
+\end_layout
+
+\begin_layout Standard
+A service is a self-contained unit of functionality, such as retrieving an online bank statement. Services can be combined by other software applications to provide the complete functionality of a large software application. SOA makes it easy for computers connected over a network to cooperate. Every computer can run an arbitrary number of services, and each service is built in a way that ensures that the service can exchange information with any other service in the network without human interaction and without the need to make changes to the underlying program itself.
+\end_layout
+
+\begin_layout Standard
+There are no industry standards relating to the exact composition of a service-oriented architecture, although many industry sources have published their own principles.
+\end_layout
+
+\begin_layout Subsection
+Interactive Systems
+\end_layout
+
+\begin_layout Subsubsection
+Model-View-Controller
+\end_layout
+
+\begin_layout Standard
+Model–view–controller (MVC) is a software architectural pattern for implementing user interfaces. It divides a given software application into three interconnected parts, so as to separate internal representations of information from the ways that information is presented to or accepted from the user.
+\end_layout
+
+\begin_layout Paragraph
+Components:
+\end_layout
+
+\begin_layout Standard
+The central component of MVC, the model, captures the behavior of the application in terms of its problem domain, independent of the user interface. The model directly manages the data, logic and rules of the application. A view can be any output representation of information, such as a chart or a diagram; multiple views of the same information are possible, such as a bar chart for management and a tabular view for accountants. The third part, the controller, accepts input and converts it to commands for the model or view.
+\end_layout
+
+\begin_layout Paragraph
+Interactions:
+\end_layout
+
+\begin_layout Standard
+In addition to dividing the application into three kinds of components, the model–view–controller design defines the interactions between them.
+\end_layout
+
+\begin_layout Itemize
+A controller can send commands to the model to update the model's state (e.g., editing a document). It can also send commands to its associated view to change the view's presentation of the model (e.g., by scrolling through a document). 
+\end_layout
+
+\begin_layout Itemize
+A model notifies its associated views and controllers when there has been a change in its state. This notification allows the views to produce updated output, and the controllers to change the available set of commands. In some cases an MVC implementation might instead be "passive," so that other components must poll the model for updates rather than being notified. 
+\end_layout
+
+\begin_layout Itemize
+A view requests information from the model that it uses to generate an output representation to the user. 
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+% Include the 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics 
+	filename ../images/mvc.png
+	width 60text%
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Standard
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:frog"
+
+\end_inset
+
+ MVC architecture
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+MapReduce
+\end_layout
+
+\begin_layout Standard
+MapReduce is a programming model designed for processing large volumes of data in parallel by dividing the work into a set of independent tasks. MapReduce programs are written in a particular style influenced by functional programming constructs, specifically idioms for processing lists of data. In this section we explain the nature of this programming model and how it can be used to write programs which run in the Hadoop environment.
+\end_layout
+
+\begin_layout Subsection
 Sections
 \end_layout
 
 \begin_layout Standard
-
 Use section and subsection commands to organize your document. LaTeX handles all the formatting and numbering automatically. Use ref and label commands for cross-references.
 \end_layout
 
 \begin_layout Subsection
-
 Comments
 \end_layout
 
 \begin_layout Standard
-
 Comments can be added to the margins of the document using the 
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 
 \backslash
 todo
@@ -1136,8 +1286,7 @@ todo
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 {
 \end_layout
 
@@ -1147,8 +1296,7 @@ Here's a comment in the margin!
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 }
 \end_layout
 
@@ -1159,12 +1307,10 @@ status collapsed
 
 \begin_layout Standard
 
-
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 
 \backslash
 todo
@@ -1176,8 +1322,7 @@ todo
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 {
 \end_layout
 
@@ -1187,8 +1332,7 @@ This is an inline comment.
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 }
 \end_layout
 
@@ -1198,12 +1342,10 @@ status collapsed
 \end_layout
 
 \begin_layout Subsection
-
 Tables and Figures
 \end_layout
 
 \begin_layout Standard
-
 Use the table and tabular commands for basic tables --- see Table
 \begin_inset space ~
 
@@ -1233,18 +1375,11 @@ reference "fig:frog"
 
 \begin_layout Standard
 
-
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 % Commands to include a figure:
-\end_layout
-
-\begin_layout Standard
-
-
 \end_layout
 
 \end_inset
@@ -1258,12 +1393,10 @@ status open
 
 \begin_layout Standard
 
-
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
+\begin_layout Plain Layout
 
 \backslash
 centering
@@ -1279,10 +1412,9 @@ centering
 \end_inset
 
  
-\begin_inset Caption
+\begin_inset Caption Standard
 
 \begin_layout Standard
-
 
 \begin_inset CommandInset label
 LatexCommand label
@@ -1305,122 +1437,115 @@ This is a figure caption.
 
 \begin_layout Standard
 
+\begin_inset ERT
+status collapsed
 
-\begin_inset Float table
-wide false
-sideways false
-status open
+\begin_layout Plain Layout
+%
+\backslash
+begin{table}
+\end_layout
 
-
-\begin_layout Standard
+\end_inset
 
 
 \begin_inset ERT
 status collapsed
 
-\begin_layout Standard
-
-
+\begin_layout Plain Layout
+%
 \backslash
 centering
 \end_layout
 
 \end_inset
 
- 
-\begin_inset Tabular 
-<lyxtabular version="3" rows="3" columns="2">
-<features tabularvalignment="middle" tabularwidth="0pt">
-<column alignment="left" valignment="top">
-<column alignment="right" valignment="top">
-<row>
-<cell alignment="left" valignment="top" rightline="true" usebox="none">
-\begin_inset Text
 
-\begin_layout Standard
+\begin_inset ERT
+status collapsed
 
-Item 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="right" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-
-Quantity 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-
-Widgets 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="right" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-
-42 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-
-Gadgets 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="right" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Standard
-
-13 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\begin_inset Caption
-
-\begin_layout Standard
-
-
-\begin_inset CommandInset label
-LatexCommand label
-name "tab:widgets"
-
-\end_inset
-
-An example table.
+\begin_layout Plain Layout
+%
+\backslash
+begin{tabular}{l|r}
 \end_layout
 
 \end_inset
 
 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%Item & Quantity 
+\backslash
+
+\backslash
+
+\backslash
+hline
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%Widgets & 42 
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%Gadgets & 13
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+end{tabular}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+caption{
+\backslash
+label{tab:widgets}An example table.}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%
+\backslash
+end{table}
 \end_layout
 
 \end_inset
@@ -1429,12 +1554,10 @@ An example table.
 \end_layout
 
 \begin_layout Subsection
-
 Mathematics
 \end_layout
 
 \begin_layout Standard
-
 LaTeX is great at typesetting mathematics. Let 
 \begin_inset Formula $X_1, X_2, \ldots, X_n$
 \end_inset
@@ -1468,81 +1591,34 @@ denote their mean. Then as
 \end_layout
 
 \begin_layout Subsection
-
 Lists
 \end_layout
 
 \begin_layout Standard
-
-You can make lists with automatic numbering 
-\begin_inset ERT
-status collapsed
-
-\begin_layout Standard
-
-
-\backslash
-dots
-\end_layout
-
-\end_inset
-
-
+You can make lists with automatic numbering …
 \end_layout
 
 \begin_layout Enumerate
-
 Like this, 
 \end_layout
 
 \begin_layout Enumerate
-
 and like this. 
 \end_layout
 
 \begin_layout Standard
-
-
-\begin_inset ERT
-status collapsed
-
-\begin_layout Standard
-
-
-\backslash
-dots
-\end_layout
-
-\end_inset
-
- or bullet points 
-\begin_inset ERT
-status collapsed
-
-\begin_layout Standard
-
-
-\backslash
-dots
-\end_layout
-
-\end_inset
-
- 
+…or bullet points …
 \end_layout
 
 \begin_layout Itemize
-
 Like this, 
 \end_layout
 
 \begin_layout Itemize
-
 and like this. 
 \end_layout
 
 \begin_layout Standard
-
 We hope you find writeLaTeX
 \begin_inset space \space{}
 
