@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2014.11.21)  4 DEC 2014 16:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2014.11.21)  4 DEC 2014 19:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -472,6 +472,12 @@ LaTeX Warning: Label `fig:frog' multiply defined.
 
 LaTeX Warning: Label `fig:frog' multiply defined.
 
+
+LaTeX Warning: Label `fig:frog' multiply defined.
+
+
+LaTeX Warning: Label `fig:frog' multiply defined.
+
 )
 \openout1 = `ArchitecturalPatterns.aux'.
 
@@ -610,14 +616,30 @@ Package pdftex.def Info: ../images/mvc.png used on input line 230.
 (pdftex.def)             Requested size: 234.00238pt x 185.34775pt.
 
 [6] [7 <../images/mvc.png>]
+<../images/mapreduce1.png, id=49, 513.92pt x 336.25626pt>
+File: ../images/mapreduce1.png Graphic file (type png)
 
-LaTeX Warning: Reference `tab:widgets' on page 8 undefined on input line 259.
+<use ../images/mapreduce1.png>
+Package pdftex.def Info: ../images/mapreduce1.png used on input line 253.
+(pdftex.def)             Requested size: 234.00238pt x 153.10971pt.
 
+<../images/mapreduce2.png, id=50, 538.01pt x 321.2pt>
+File: ../images/mapreduce2.png Graphic file (type png)
+
+<use ../images/mapreduce2.png>
+Package pdftex.def Info: ../images/mapreduce2.png used on input line 265.
+(pdftex.def)             Requested size: 234.00238pt x 139.70126pt.
+ [8 <../images/mapreduce1.png>]
+
+LaTeX Warning: Reference `tab:widgets' on page 9 undefined on input line 285.
+
+[9 <../images/mapreduce2.png>]
 File: ../images/logo.png Graphic file (type png)
-<use ../images/logo.png>
-Package pdftex.def Info: ../images/logo.png used on input line 264.
+ <use ../images/logo.png>
+Package pdftex.def Info: ../images/logo.png used on input line 290.
 (pdftex.def)             Requested size: 195.0pt x 207.63155pt.
- [8] [9] (./ArchitecturalPatterns.aux)
+ [10] [11]
+(./ArchitecturalPatterns.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -626,10 +648,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13457 strings out of 494950
- 262705 string characters out of 6179039
- 310306 words of memory out of 5000000
- 16405 multiletter control sequences out of 15000+600000
+ 13467 strings out of 494950
+ 262963 string characters out of 6179039
+ 309307 words of memory out of 5000000
+ 16413 multiletter control sequences out of 15000+600000
  11787 words of font info for 42 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  62i,9n,80p,691b,695s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -645,10 +667,10 @@ c/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
 fb>
-Output written on ArchitecturalPatterns.pdf (10 pages, 210711 bytes).
+Output written on ArchitecturalPatterns.pdf (12 pages, 242282 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 107 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 

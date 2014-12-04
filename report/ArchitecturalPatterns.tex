@@ -244,10 +244,31 @@ all data elements in MapReduce are immutable\footnote{an immutable object is an 
 
 Conceptually, MapReduce programs transform lists of input data elements into lists of output data elements. A MapReduce program will do this twice, using two different list processing idioms: map, and reduce. These terms are taken from several list processing languages such as LISP, Scheme, or ML.
 
+As an example of the utility of map: Suppose you had a function toUpper(str) which returns an uppercase version of its input string. You could use this function with map to turn a list of strings into a list of uppercase strings. Note that we are not modifying the input string here: we are returning a new string that will form part of a new output list.
+
 \subsubsection{Mapping lists}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.6\textwidth]{../images/mapreduce1.png}
+\caption{\label{fig:frog}MapReduce List processing}
+\end{figure}
 
 The first phase of a MapReduce program is called mapping. A list of data elements are provided, one at a time, to a function called the Mapper, which transforms each element individually to an output data element.
 
+As an example of the utility of map: Suppose you had a function toUpper(str) which returns an uppercase version of its input string. You could use this function with map to turn a list of strings into a list of uppercase strings. Note that we are not modifying the input string here: we are returning a new string that will form part of a new output list.
+
+\subsubsection{Reducing lists}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.6\textwidth]{../images/mapreduce2.png}
+\caption{\label{fig:frog}MapReduce: reducing lists}
+\end{figure}
+
+Reducing lets you aggregate values together. A reducer function receives an iterator of input values from an input list. It then combines these values together, returning a single output value.
+
+Reducing is often used to produce "summary" data, turning a large volume of data into a smaller summary of itself. For example, "+" can be used as a reducing function, to return the sum of a list of input values.
 
 \subsection{Sections}
 
